@@ -1,0 +1,293 @@
+// LANDING
+
+@media (max-width: 1110px) {
+    .desktop  {
+        .controls {
+            gap: 20px;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .desktop {
+        height: 90px;
+        padding: 0px 12px 0px 15px;
+        img {
+            width: 58px;
+            height: 58px;
+        }
+        .controls {
+            a{
+                button {
+                    width: 205px;
+                    height: 66px;
+                    padding: 0;
+                    font-size: 20px;
+                }
+            }
+            nav {
+                a {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+    .why {
+        article {
+            gap: 100px;
+            .adventage {
+                flex-direction: column;
+                text-align: center;
+                gap: 0px;
+                &:nth-child(2) {
+                    flex-direction: column;
+                }
+                .text {
+                    h1 {
+                        font-size: 32px;
+                    }
+                    p {
+                        font-size: 26px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 890px) {
+    .categories {
+        article {
+            .items {
+                .image {
+                    &:nth-child(4) {
+                        &::after {
+                            top: 125px;
+                            left: 55px;
+                            background: url('/assets/graphicElements/18+_tablet.webp') no-repeat center;
+                            background-size: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .mobile-start-btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    .wrapper {
+        gap: 60px;
+    }
+    .categories {
+        article {
+            .items {
+                .image {
+                    &:nth-child(3) {
+                        &::after {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .mobile {
+        display: flex;
+    }
+    .desktop {
+        display: none;
+    }
+    .hero {
+        padding: 0;
+        .content {
+            p {
+                font-size: 30px;
+            }
+            .images {
+                box-sizing: border-box;
+                gap: 50px;
+                padding: 10px;
+            }
+        }
+    }
+    .title {
+        h1 {
+            font-size: 36px;
+        }
+        p {
+            font-size: 16px;
+            max-width: 600px;
+        }
+    }
+    .why {
+        article {
+            margin-top: 60px;
+        }
+    }
+    .who {
+        .mobile {
+            display: flex;
+        }
+        .desktop {
+            display: none;
+        }
+    }
+    .desktop  {
+        .controls {
+            nav {
+                gap: 20px;
+            }
+        }
+    }
+    .hero {
+        .content {
+            &.collab {
+                margin: 0px 0px 125px 0px;
+            }
+            margin: 80px 0px 125px 0px;
+            .image {
+                display: none;
+            }
+            aside.text {
+                max-width: none;
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 584px) {
+    .hero {
+        .content {
+            gap: 70px;
+            .images {
+                .company {
+                    height: 170px;
+                }
+                .cross {
+                    width: 27px;
+                    height: 33px;
+                }
+            }
+        }
+    }
+    .who {
+        .mobile {
+            gap: 0;
+            button {
+                img {
+                    width: 24px;
+                    height: 24px;
+                }
+            }
+        }
+    }
+    .categories {
+        article {
+            .items {
+                gap: 25px 25px;
+                .image {
+                    &:nth-child(5) {
+                        &::after {
+                            display: none;
+                        }
+                    }
+                    &:nth-child(4) {
+                        &::after {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 472px) {
+    .mobile-start-btn {
+        button {
+            max-width: 336px;
+            font-size: 24px;
+        }
+    }
+    .hero {
+        .content {
+            .images {
+                gap: 25px;
+            }
+            padding: 0px 10px;
+            aside {
+                h1 {
+                    font-size: 85px;
+                }
+            }
+        }
+    }
+    .why {
+        article {
+            .adventage {
+                .text {
+                    p {
+                        font-size: 18px;
+                    }
+                    h1 {
+                        font-size: 24px;
+                    }
+                }
+                &.one {
+                    .text {
+                        p {
+                            span {
+                                &::after {
+                                    height: 53px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// ================
+
+// APP
+
+// ================
+
+// TERMS
+
+@media (max-width: 768px) {
+    .terms {
+        padding: 20px 20px 20px 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    main {
+        header {
+            .title {
+                gap: 10px;
+                .image {
+                    img {
+                        max-width: 48px;
+                    }
+                }
+                h2 {
+                    font-size: 14px;
+                }
+            }
+            a {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+// ================
